@@ -7,7 +7,9 @@ import './bootstrap';
 // Alpine.start();
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import AdminDashboard from './components/AdminDashboard';
+import StaffDashboard from './components/StaffDashboard';
+import Dashboard from './components/Dashboard';
 import App from './components/App';
 
 if(document.getElementById('admin-main')){
